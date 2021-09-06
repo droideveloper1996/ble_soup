@@ -31,7 +31,6 @@ Step 2. Add the dependency
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toast.makeText(this, "Hello from ble soup", Toast.LENGTH_SHORT).show();
         handler = new Handler(Looper.getMainLooper());
         scanner = new BleScanner(this, handler, callback);
         try {
