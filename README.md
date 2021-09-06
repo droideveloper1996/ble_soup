@@ -163,5 +163,11 @@ Step 2. Add the dependency
     
     For notification data greater than the defined size[200 byte] is clubbed together and then returned as the string;
     
+#Approximate distance of devices using ble_soup
+    
+    This method can be used for approximating distance in cm 
+    *Note this just the experimental and depends on tx power and rssi sometime may be inacurate 
+    
+    bleDevice.getScanBundle().getDistance();
 
 
