@@ -142,6 +142,10 @@ Step 2. Add the dependency
         }
     };
     
+    #Negotitate MTU
+    Post connection to the device you can negotiate MTU size max 517 bytes;
+    bleDevice.setMtu(int size)
+    
     #Operation Queue
     
     boolean flag which enables or disabled the read write operations in the queue.
