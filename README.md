@@ -142,16 +142,17 @@ Step 2. Add the dependency
         }
     };
     
-    #Negotitate MTU
+   #Negotitate MTU
     Post connection to the device you can negotiate MTU size max 517 bytes;
-    bleDevice.setMtu(int size)
     
-    #Operation Queue
+     bleDevice.setMtu(int size)
+    
+   #Operation Queue
     
     boolean flag which enables or disabled the read write operations in the queue.
     flag=true makes the operation in the queue and then it is executed accordingly
     
-    #Long Read/Write
+   #Long Read/Write
     
     Any data size that is greater than the MTU size is automatically handled and the data is sent to the device as chunks
     in case of the failed read/write operation library attemts to read/write the characteristic after 5 sec, this behaviour
