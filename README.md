@@ -1,4 +1,6 @@
 # ble_soup
+<h6>Simple yet powerful android ble library in JAVA</h6>
+
 #Installation
 
 Step 1. Add it in your root build.gradle at the end of repositories:
